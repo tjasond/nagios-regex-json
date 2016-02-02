@@ -1,0 +1,21 @@
+{
+  "meta": {
+    "build": "12345",
+    "version": "1"
+  },
+  "non_critical": [
+    {
+      "MetricOne": "15"
+    }
+  ],
+  "critical": [
+    {
+      "id": "MetricTwo",
+      "status": "OK"
+    },
+    {
+      "id": "MetricThree",
+      "status": "ALARM"
+    }
+  ]
+}
