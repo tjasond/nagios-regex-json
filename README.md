@@ -42,7 +42,7 @@ Construct expressions that will expose warnings and errors:
 
   * Regular Expression: An expression to apply against properties in the [flattened](#flattened_json) JSON document
 
-  * Expected Value: Comma-separated list of expected values (case-sensitive)
+  * Expected Value: Colon-separated list of expected values (case-sensitive)
 
   * Context Level: The number of levels to "walk up" in order to provide adequate context in an error message.  In this example, setting the context to 1 outputs all sibling properties, which allows the id, "MetricThree", to be included in the output.
 
